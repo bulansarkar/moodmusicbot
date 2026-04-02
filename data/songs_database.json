@@ -21,10 +21,10 @@
         "reason": "Powerful, energetic anthem that lifts spirits"
       },
       {
-        "title": "Shut Up and Dance",
-        "artist": "Walk the Moon",
-        "youtube_id": "j_QLzthSkrA",
-        "reason": "Fun, danceable, and impossible not to feel better"
+        "title": "Here Comes the Sun",
+        "artist": "The Beatles",
+        "youtube_id": "JxPj3GAYYZ0",
+        "reason": "Hopeful message that things will get better"
       },
       {
         "title": "Levitating",
@@ -44,12 +44,6 @@
         "reason": "Hopeful message that things will get better"
       },
       {
-        "title": "Lovely Day",
-        "artist": "Bill Withers",
-        "youtube_id": "JUz-dEW0qEo",
-        "reason": "Soulful and uplifting classic"
-      },
-      {
         "title": "Walking on Sunshine",
         "artist": "Katrina & The Waves",
         "youtube_id": "iPUmE-tne5U",
@@ -62,10 +56,16 @@
         "reason": "Reassuring message that everything will be alright"
       },
       {
-        "title": "I Can See Clearly Now",
-        "artist": "Johnny Nash",
-        "youtube_id": "VZ2HcRl4wSk",
-        "reason": "Optimistic and uplifting classic"
+        "title": "Good as Hell",
+        "artist": "Lizzo",
+        "youtube_id": "SmbmeOgWcKU",
+        "reason": "Empowering and uplifting message"
+      },
+      {
+        "title": "Don't Stop Me Now",
+        "artist": "Queen",
+        "youtube_id": "HgzGwKwLmgM",
+        "reason": "Energetic anthem to lift spirits"
       }
     ]
   },
@@ -79,10 +79,10 @@
         "reason": "Scientifically proven to reduce anxiety and stress"
       },
       {
-        "title": "Breathe",
-        "artist": "Pink Floyd",
-        "youtube_id": "mPZkdNFkNps",
-        "reason": "Calming and meditative, helps with anxiety"
+        "title": "Let It Be",
+        "artist": "The Beatles",
+        "youtube_id": "QDYfEBY9NM4",
+        "reason": "Comforting and reassuring during anxious times"
       },
       {
         "title": "Good as Hell",
@@ -97,10 +97,10 @@
         "reason": "Simple, cheerful, and anxiety-reducing message"
       },
       {
-        "title": "Let It Be",
-        "artist": "The Beatles",
-        "youtube_id": "QDYfEBY9NM4",
-        "reason": "Comforting and reassuring during anxious times"
+        "title": "Three Little Birds",
+        "artist": "Bob Marley",
+        "youtube_id": "LXb3EKWsInQ",
+        "reason": "Calming and reassuring reggae classic"
       }
     ]
   },
@@ -120,16 +120,16 @@
         "reason": "Gently lifts mood from neutral to positive"
       },
       {
-        "title": "Shut Up and Dance",
-        "artist": "Walk the Moon",
-        "youtube_id": "j_QLzthSkrA",
-        "reason": "Fun and engaging without being too intense"
+        "title": "Here Comes the Sun",
+        "artist": "The Beatles",
+        "youtube_id": "JxPj3GAYYZ0",
+        "reason": "Hopeful and uplifting transition to happiness"
       },
       {
-        "title": "Lovely Day",
-        "artist": "Bill Withers",
-        "youtube_id": "JUz-dEW0qEo",
-        "reason": "Smooth and uplifting transition to happiness"
+        "title": "Three Little Birds",
+        "artist": "Bob Marley",
+        "youtube_id": "LXb3EKWsInQ",
+        "reason": "Smooth and uplifting reggae vibe"
       },
       {
         "title": "Don't Stop Me Now",
@@ -155,10 +155,10 @@
         "reason": "Energetic anthem to keep the good vibes going"
       },
       {
-        "title": "Shut Up and Dance",
-        "artist": "Walk the Moon",
-        "youtube_id": "j_QLzthSkrA",
-        "reason": "Fun and danceable to celebrate happiness"
+        "title": "Here Comes the Sun",
+        "artist": "The Beatles",
+        "youtube_id": "JxPj3GAYYZ0",
+        "reason": "Timeless classic to enhance happiness"
       },
       {
         "title": "Levitating",
@@ -190,12 +190,6 @@
         "reason": "Pure joy and celebration in musical form"
       },
       {
-        "title": "Shut Up and Dance",
-        "artist": "Walk the Moon",
-        "youtube_id": "j_QLzthSkrA",
-        "reason": "Infectious energy for peak happiness"
-      },
-      {
         "title": "Levitating",
         "artist": "Dua Lipa",
         "youtube_id": "TUVcZfQe-Kw",
@@ -206,6 +200,12 @@
         "artist": "Lizzo",
         "youtube_id": "SmbmeOgWcKU",
         "reason": "Celebratory and empowering for peak moments"
+      },
+      {
+        "title": "Here Comes the Sun",
+        "artist": "The Beatles",
+        "youtube_id": "JxPj3GAYYZ0",
+        "reason": "Iconic anthem for ultimate happiness"
       }
     ]
   }
