@@ -1,0 +1,137 @@
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/mood-music-backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2234] using StatReload
+INFO:     Started server process [2236]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+⚠️  Warning: Could not initialize OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'. Using fallback analysis.
+INFO:     127.0.0.1:51412 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53490 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53492 - "GET /api/moods HTTP/1.1" 200 OK
+INFO:app.main:Analyzing mood for input: I have been feeling really sad and depressed latel...
+INFO:app.main:Detected mood: MoodCategory.VERY_SAD, Score: 2.0
+INFO:app.main:Generated 5 recommendations
+INFO:     127.0.0.1:53500 - "POST /api/analyze-mood HTTP/1.1" 200 OK
+INFO:app.main:Analyzing mood for input: I am feeling very anxious and worried about my exa...
+INFO:app.main:Detected mood: MoodCategory.ANXIOUS, Score: 5.2
+INFO:app.main:Generated 5 recommendations
+INFO:     127.0.0.1:59042 - "POST /api/analyze-mood HTTP/1.1" 200 OK
+INFO:app.main:Analyzing mood for input: I am feeling amazing today! I got promoted at work...
+INFO:app.main:Detected mood: MoodCategory.VERY_HAPPY, Score: 9.5
+INFO:app.main:Generated 5 recommendations
+INFO:     127.0.0.1:59048 - "POST /api/analyze-mood HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59050 - "GET /api/recommendations/sad?count=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55806 - "GET /api/recommendations/invalid_mood HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57626 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53638 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48344 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46934 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51672 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51674 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54970 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:55762 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59740 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:36198 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:36208 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53354 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53368 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53380 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33128 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33144 - "GET /health HTTP/1.1" 200 OK
+INFO:app.main:Analyzing mood for input: I am feeling happy and excited...
+INFO:app.main:Detected mood: MoodCategory.HAPPY, Score: 7.0
+INFO:app.main:Generated 5 recommendations
+INFO:     10.25.12.1:33154 - "POST /api/analyze-mood HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54756 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54770 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54012 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54018 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60232 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60246 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60248 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:49904 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:49908 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60254 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60270 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60282 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60284 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:35606 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:35618 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:35634 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:47340 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:47346 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:47352 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     10.25.12.1:47354 - "GET / HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53262 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53268 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51258 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51260 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54108 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54110 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60066 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60068 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59406 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59410 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51192 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:51200 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:42882 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:42892 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33302 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33318 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60554 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60564 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:48970 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:48982 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:39698 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:39702 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:55952 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:55956 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:56154 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:56156 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:50066 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:50074 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:34600 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:34614 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60862 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:60872 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:48372 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:48386 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:58528 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:58532 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:47114 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:47122 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53418 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53426 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59124 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59138 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:50090 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:50102 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53208 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53224 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53240 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:44374 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:44376 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53330 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:53346 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:52424 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:52428 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54816 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:54832 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:57412 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:57424 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:43460 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:43468 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59536 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:59546 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:42946 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:42962 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:45676 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:45678 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33426 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:33434 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:57914 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:57918 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:45666 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:45680 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.25.12.1:56974 - "GET /health HTTP/1.1" 200 OK
